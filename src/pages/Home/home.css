@@ -1,0 +1,38 @@
+body{
+    /* overflow: hidden; */
+    background-color: beige;
+    
+   
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1140px;
+    position: absolute;
+    padding: 5px;
+    top: 250px;
+    left: 400px;
+}
+
+
+.main-button{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+
+}
+
+.main-container{
+    display: flex;
+    border: 2px solid rgb(255, 36, 36);
+    gap: 10px;
+    background-color: rgb(255, 36, 36);
+}
+h1{
+    margin-top: 200px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}

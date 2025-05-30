@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        margin-left: 250px;
+        background-color: beige;
+
+}
+
+.card-container{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+    width: 270px;
+    height: 270px;  
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.title-image{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: px;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+
+
+}
+img:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+.brand-name{
+    
+    left: 0;
+    margin: 5px;
+}
+.product-image>img{
+    width: 200px;
+    height: 200px;
+}
+
+.price{
+    
+    font-size: 1.5em;
+    color: red;
+}
